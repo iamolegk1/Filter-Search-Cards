@@ -1,6 +1,7 @@
 import * as React from "react";
-import "./styles.css";
+
 import IMAGE from "./1.png";
+import "./styles.css";
 
 interface IAppProps {}
 
