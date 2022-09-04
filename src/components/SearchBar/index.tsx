@@ -9,22 +9,20 @@ interface ISearchBar {
   value: string;
 }
 
-const SearchBar: React.FC<ISearchBar> = ({ value, handleSearchChange }) => {
-  return (
-    <div className="searchBarWrapper">
-      <SearchIcon className="searchIcon" />
-      <TextField
-        id="standard-search"
-        label="Search field"
-        type="search"
-        variant="standard"
-        value={value}
-        onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-          handleSearchChange(e)
-        }
-      />
-    </div>
-  );
-};
+const SearchBar: React.FC<ISearchBar> = ({ value, handleSearchChange }) => (
+  <div className="searchBarWrapper">
+    <SearchIcon className="searchIcon" />
+    <TextField
+      id="standard-search"
+      label="Search field"
+      type="search"
+      variant="standard"
+      value={value}
+      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+        handleSearchChange(e)
+      }
+    />
+  </div>
+);
 
 export default SearchBar;
