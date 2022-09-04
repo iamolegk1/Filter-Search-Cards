@@ -17,6 +17,8 @@
 
 ## Screenshots
 
+![1](https://user-images.githubusercontent.com/86320945/188335260-500bf5a6-2933-4ce0-818f-7d926349f770.png)
+
 ## Features
 
 - Product search feature.
